@@ -1,0 +1,80 @@
+{
+  "products": [
+    {
+      "id": "prod-1",
+      "name": "Cheeseburger",
+      "price": 8.99
+    },
+    {
+      "id": "prod-2",
+      "name": "Margherita Pizza",
+      "price": 12.49
+    },
+    {
+      "id": "prod-3",
+      "name": "Organic Apples (1kg)",
+      "price": 4.5
+    }
+  ],
+  "carts": [
+    {
+      "user_id": "user-1",
+      "items": [
+        {
+          "product": {
+            "id": "prod-1",
+            "name": "Cheeseburger",
+            "price": 8.99
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": "prod-2",
+            "name": "Margherita Pizza",
+            "price": 12.49
+          },
+          "quantity": 2
+        }
+      ],
+      "total": 42.96
+    },
+    {
+      "user_id": "suraj",
+      "items": [
+        {
+          "product": {
+            "id": "prod-2",
+            "name": "Margherita Pizza",
+            "price": 12.49
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": "prod-1",
+            "name": "Cheeseburger",
+            "price": 8.99
+          },
+          "quantity": 2
+        },
+        {
+          "product": {
+            "id": "prod-3",
+            "name": "Organic Apples (1kg)",
+            "price": 4.5
+          },
+          "quantity": 2
+        }
+      ],
+      "total": 51.96
+    }
+  ],
+  "users": [
+    {
+      "id": "user-1",
+      "name": "John Doe",
+      "email": "john@example.com"
+    }
+  ]
+}

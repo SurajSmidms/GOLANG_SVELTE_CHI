@@ -1,0 +1,15 @@
+### Get Inventory
+GET http://localhost:8080/api/inventory
+
+### Add to Cart
+POST http://localhost:8080/api/cart
+Content-Type: application/json
+
+{
+  "user_id": "user-1",
+  "product_id": "prod-1",
+  "quantity": 2
+}
+
+### Get Cart
+GET http://localhost:8080/api/cart?user_id=user-1
